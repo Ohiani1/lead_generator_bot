@@ -11,10 +11,11 @@ reddit = praw.Reddit(
 import random
 import time
 
+subreddit = reddit.subreddit("FreeKarma4You+FreeKarma4All+FreeKarma4U")
+messages = ["upvoted, upvote in return?", "Great post, care to share the upvotes!"]
+
 def karma():
   try:
-    messages = ["upvoted, upvote in return?", "Great post, care to share the upvotes!"]
-    subreddit = reddit.subreddit("FreeKarma4You+FreeKarma4All+FreeKarma4U")
     for submission in subreddit.stream.submissions():
       submission.upvote()
       rand = random.randint(0, (len(messages)-1))
