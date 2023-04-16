@@ -14,7 +14,8 @@ import time
 def karma():
   try:
     messages = ["upvoted, upvote in return?", "Great post, care to share the upvotes!"]
-    for submission in reddit.subreddit("FreeKarma4You+FreeKarma4All+FreeKarma4U"):
+    subreddit = reddit.subreddit("FreeKarma4You+FreeKarma4All+FreeKarma4U")
+    for submission in subreddit.stream.submissions():
       submission.upvote()
       rand = random.randint(0, (len(messages)-1))
       print(submission.title)
