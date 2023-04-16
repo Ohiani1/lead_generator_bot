@@ -25,3 +25,5 @@ def karma():
   except:
     time.sleep(300)
     karma()
+    
+karma()
