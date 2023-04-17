@@ -11,7 +11,7 @@ reddit = praw.Reddit(
 import random
 import time
 
-subreddit = reddit.subreddit("FreeKarma4You+FreeKarma4All+FreeKarma4U")
+subreddit = reddit.subreddit("FreeKarma4All+FreeKarma4U")
 messages = ["upvoted, upvote in return?", "Great post, care to share the upvotes!"]
 
 def karma():
