@@ -1,10 +1,10 @@
 import praw
 
 reddit = praw.Reddit(
-    client_id="goCW4r2J6JdPhiQDLdS5zg",
-    client_secret="JIPIj30b3RuWNBVekK5aXJz-IKKCWg",
+    client_id="kyqQ6JP2lxvMS74AGt4Sqg",
+    client_secret="0oOqkyTzSn-9g3A7En-CsSls_dN01g",
     user_agent="reddit bot",
-    username="Alternative_Metal_89",
+    username="Emotional_Shirt_7654",
     password="Junior1235",
 )
 
