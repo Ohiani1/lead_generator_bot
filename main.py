@@ -1,11 +1,11 @@
 import praw
 
 reddit = praw.Reddit(
-    client_id="kyqQ6JP2lxvMS74AGt4Sqg",
-    client_secret="0oOqkyTzSn-9g3A7En-CsSls_dN01g",
-    user_agent="reddit bot",
-    username="Emotional_Shirt_7654",
-    password="Junior1235",
+    client_id="cKhT2o_mVkHnyHySPtMjsw",
+    client_secret="buT_YxPSHuuKeU2RSVZ7_Xtau6QndQ",
+    user_agent="bot",
+    username="AdPrestigious8977",
+    password="Adam2003@",
 )
 
 import random
